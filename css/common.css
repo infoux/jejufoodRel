@@ -391,7 +391,7 @@ footer#footer p.copyright{margin:0.938rem 0 0 0;padding:0;font-size:0.875rem;col
 	header#header div.container ul li{float:left;width:7.5rem;height:3.75rem;}
 	header#header div.container ul li a{display:inline-block;width:100%;height:3.75rem;line-height:3.75rem;font-size:1.313rem;font-weight:500;color:#fff;text-align:center;}
 	header#header div.container ul li a:hover, header#header div.container ul li a.active{border-bottom:0.25rem solid #fff;}
-	article#mainContent div.mainContent-inner{position:relative;width:61.25rem;margin:0 auto;top:3.75rem;text-align:left;}
+	article#mainContent div.mainContent-inner{position:absolute;width:61.25rem;margin:0 auto;top:calc(50% - 17.813rem);left:calc(50% - 30.625rem);text-align:left;}
 	article#mainContent div.mainContent-inner h2{float:right;display:inline-block;font-size:5.188rem;text-align:center;margin-top:8.75rem;}
 	article#mainContent div.mainContent-inner h2.main02{letter-spacing:-0.125rem;}
 	article#mainContent div.mainContent-inner h2.main03{margin-top:13.125rem;padding-right:9.625rem;}
