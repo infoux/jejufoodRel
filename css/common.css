@@ -183,7 +183,7 @@ button {
 	.paging-pc ul li a.active{color:#f07249;}
 }
 /* popup */
-#createPopup {position:fixed;top:0;right:0;left:0;display:block;width:100%;height:100%;background:url('../images/bg.png');z-index:700;}
+#createPopup {position:fixed;top:0;right:0;left:0;display:none;width:100%;height:100%;background:url('../images/bg.png');z-index:700;}
 #createPopup div.popContainer {position:absolute;top:calc(50% - 10.313rem);left:calc(50% - 10.125rem);display:block;width:20.25rem;background:#fff;padding:1.063rem;}
 #createPopup div.popContainer dl{margin:0;padding:0;}
 #createPopup div.popContainer dl dt{display:inline-block;font-size:1.25rem;color:#333;margin-bottom:0.938rem;}
@@ -244,8 +244,11 @@ article#mainContent div.download ul li a strong{font-weight:bold;}
 article#mainContent div.download-pc{display:none;}
 article#mainContent div.down-scroll{display:none;}
 
-article#subContent div.pos-introduce{position:relative;min-height:25rem;line-height:25rem;background:#a7a7a7;color:#fff;text-align:center;}
-article#subContent div.pos-introduce h2{margin:0;padding:0;}
+article#subContent div.pos-introduce{position:relative;min-height:25rem;line-height:25rem;background:#fff;color:#fff;text-align:center;}
+article#subContent div.pos-introduce img{position:absolute;}
+article#subContent div.pos-introduce img.main-pos{left:calc(50% - 8.688rem);top:-0.313rem;width:17.375rem;height:16.063rem;}
+article#subContent div.pos-introduce img.sale-pos{width:6.938rem;height:8.125rem;bottom:0;right:calc(50% + 1.875rem);}
+article#subContent div.pos-introduce img.order-pos{width:9rem;height:7.75rem;bottom:0;right:calc(50% - 8.875rem);}
 article#subContent div.pos-content{position:relative;display:block;padding:1.5rem 0.813rem;background:#fff;text-align:center;}
 article#subContent div.pos-content div.star-rate{display:inline-block;width:8.5rem;height:1.563rem;text-indent:-9999px;}
 article#subContent div.pos-content div.star-rate.no5{background:url('../images/star-icon.png') no-repeat top;background-size:8.5rem 9.375rem;}
@@ -410,7 +413,11 @@ footer#footer p.copyright{margin:0.938rem 0 0 0;padding:0;font-size:0.875rem;col
 	article#mainContent div.down-scroll{position:absolute;bottom:1.25rem;left:calc(50% - 1.188rem);}
 	article#mainContent div.down-scroll i{font-size:3.75rem;color:#fff;}
 
-	article#subContent div.pos-introduce{min-height:37.5rem;line-height:37.5rem;background:#a7a7a7;color:#fff;text-align:center;}
+	article#subContent div.pos-introduce{position:relative;min-height:37.5rem;line-height:37.5rem;background:#fff;color:#fff;text-align:center;}
+	article#subContent div.pos-introduce img{position:absolute;}
+	article#subContent div.pos-introduce img.main-pos{top:1.875rem;left:0;width:34.688rem;height:32.063rem;}
+	article#subContent div.pos-introduce img.sale-pos{top:3.125rem;right:6.25rem;width:13.875rem;height:16.188rem;}
+	article#subContent div.pos-introduce img.order-pos{bottom:3.125rem;right:5rem;width:17.938rem;height:15.5rem;}
 	article#subContent div.pos-content{padding:3.875rem 1.25rem;}
 	article#subContent div.pos-content div.star-rate{width:14.625rem;height:2.688rem;}
 	article#subContent div.pos-content div.star-rate.no5{background:url('../images/star-icon.png') no-repeat top;background-size:14.625rem 16.25rem;}
