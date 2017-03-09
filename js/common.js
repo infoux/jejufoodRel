@@ -19,21 +19,14 @@ $(document).ready(function() {
 	});
     $('#accordion div.accordion-panel div.panel-head').click(function () {
         $('#accordion div.panel-head').removeClass('active');
-		if($(this).find('i').hasClass('fa-angle-down')){
-			$(this).find('i').removeClass('fa-angle-down');
-			$(this).find('i').addClass('fa-angle-up');
-		} else {
-			$(this).find('i').removeClass('fa-angle-up');
-			$(this).find('i').addClass('fa-angle-down');
-		};
         $(this).addClass('active');
         $('#accordion div.accordion-panel div.panel-content').slideUp();
         if (!$(this).next().is(':visible')) {
             $(this).next().slideDown();
         } else {
             $(this).next().slideUp();
+			$('#accordion div.panel-head').removeClass('active');
         }
     });
-
 
 });

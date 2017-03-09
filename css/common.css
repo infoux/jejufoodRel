@@ -200,7 +200,7 @@ button {
 	#createPopup div.popContainer dl dt{font-size:26px;}
 	#createPopup div.popContainer dl dd{width:370px;}
 	#createPopup div.popContainer dl dd a{width:26px;height:26px;background-size:26px;vertical-align:8px;}
-	#createPopup div.popContainer dl dd input[type="text"]{width:100%;border-bottom:2px solid #e6e6e6;font-size:20px;}
+	#createPopup div.popContainer dl dd input[type="text"]{width:100%;border-bottom:2px solid #e6e6e6;font-size:20px;height:1.875remg;}
 	#createPopup div.popContainer textarea{min-height:180px;font-size:20px;}
 	#createPopup div.popContainer div.btn-area{margin-left:-62px;width:calc(100% + 124px);margin-top:15px;}
 	#createPopup div.popContainer div.btn-area a{height:80px;line-height:80px;letter-spacing:20px;text-align:center;padding:0;font-size:28px;text-indent:16px;}
@@ -313,6 +313,7 @@ article#subContent div.qna #accordion div.accordion-panel div.panel-head.active 
 article#subContent div.qna #accordion div.accordion-panel div.panel-head h3 {display: inline-block;width: calc(100% - 7.063rem);background: #fff;margin-top: 0;margin-bottom: 0;font-size: 1rem;color: inherit;font-weight:normal;}
 article#subContent div.qna #accordion div.accordion-panel div.panel-head h3 a {display: block;height:3.125rem;line-height:3.125rem;font-size:1.25rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333;}
 article#subContent div.qna #accordion div.accordion-panel div.panel-head h3 i{position:absolute;top:0.313rem;right:1.25rem;font-size:2.25rem;}
+article#subContent div.qna #accordion div.accordion-panel div.panel-head.active h3 i{transform:rotate(180deg);}
 article#subContent div.qna #accordion div.accordion-panel div.panel-head.active h3 a,article#subContent div.qna #accordion div.accordion-panel div.panel-head.active h3 i {color: #f07249;}
 article#subContent div.qna #accordion div.accordion-panel div.panel-content {background: #f4f4f4;font-size: 0;display: none;text-align: right;}
 article#subContent div.qna #accordion div.accordion-panel div.panel-content span {display: inline-block;font-size: 1.188rem;width: 2.813rem;padding: 0.875rem 0;vertical-align: top;text-align: center;color: #333;font-weight: 800;}
@@ -394,6 +395,7 @@ footer#footer p.copyright{margin:0.938rem 0 0 0;padding:0;font-size:0.875rem;col
 	header#header div.container ul li{float:left;width:7.5rem;height:3.75rem;}
 	header#header div.container ul li a{display:inline-block;width:100%;height:3.75rem;line-height:3.75rem;font-size:1.313rem;font-weight:500;color:#fff;text-align:center;}
 	header#header div.container ul li a:hover, header#header div.container ul li a.active{border-bottom:0.25rem solid #fff;}
+	article#mainContent div.mainSliderWrap{margin-top:150px;}
 	article#mainContent div.mainContent-inner{position:absolute;width:61.25rem;margin:0 auto;top:calc(50% - 17.813rem);left:calc(50% - 30.625rem);text-align:left;}
 	article#mainContent div.mainContent-inner h2{float:right;display:inline-block;font-size:5.188rem;text-align:center;margin-top:8.75rem;}
 	article#mainContent div.mainContent-inner h2.main02{letter-spacing:-0.125rem;}
@@ -442,7 +444,7 @@ footer#footer p.copyright{margin:0.938rem 0 0 0;padding:0;font-size:0.875rem;col
 	article#subContent div.estimate.input dt{width:6.25rem !important;margin-bottom:40px !important;}
 	article#subContent div.estimate.input dt.mgl{margin-left:2.5rem;}
 	article#subContent div.estimate.input dd{width:20.313rem !important;margin-left:1.125rem !important;}
-	article#subContent div.estimate.input dl dd input{width:80%;}
+	article#subContent div.estimate.input dl dd input{width:80%;height:1.875rem;}
 	article#subContent div.estimate h3{font-size:1.5rem;}
 	article#subContent div.estimate h3 small{display:inline-block;font-weight:700;margin-left:0.313rem;}
 	article#subContent div.estimate.choice ul{display:block;width:100%;text-align:center;margin:1.875rem 0 1.25rem;}
